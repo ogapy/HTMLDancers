@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>タイトル</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="main">HTML Dancers</h1>
+  <div class="wave">
+    <div id="waveform"></div>
+    <div class="hide"></div>
+  </div>
+  <div class="btn">
+    <div class="icon">
+      <i class="fas fa-music rythm-high"></i>
+    </div>
+    <button class="start-button"><i class="fas fa-play"></i>&nbsp;Play&nbsp;/&nbsp;<i class="fas fa-pause"></i>&nbsp;Pause</button>
+    <div class="icon">
+      <i class="fas fa-music rythm-high"></i>
+    </div>
+  </div>
+  <div class="container">
+    <div class="left">
+      <div class="speaker"></div>
+      <div class="speaker"></div>
+    </div>
+    <div class="img">
+      <img class="fox-img" src="fox.jpg" width="300" height="300">
+    </div>
+    <div class="right">
+      <div class="speaker"></div>
+      <div class="speaker"></div>
+    </div>
+  </div>
+
+  <!-- fontawesome読み込み -->
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
+    integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+  <!-- rythm.js読み込み -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rythm.js/2.2.5/rythm.min.js"></script>
+  <!-- wavesurfer.js読み込み -->
+  <script src="https://unpkg.com/wavesurfer.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
